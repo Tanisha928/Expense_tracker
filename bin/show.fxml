@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="411.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="showcontroller">
+   <children>
+      <Label alignment="CENTER" layoutY="-1.0" prefHeight="74.0" prefWidth="520.0" style="-fx-background-color: #263F73;" text="History" textFill="#faf5f5">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <ScrollPane fx:id="historyscroll" layoutX="-1.0" layoutY="108.0" prefHeight="259.0" prefWidth="520.0" />
+      <Label layoutX="59.0" layoutY="83.0" text="Date" textFill="#263f73">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="83.0" text="Category" textFill="#263f73">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="434.0" layoutY="83.0" text="Amount" textFill="#263f73">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="historybackbtn" alignment="CENTER" layoutX="236.0" layoutY="373.0" mnemonicParsing="false" onAction="#historybackbtnOnAction" text="Back" textFill="#263f73">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		
+	
+		{
+			"vmArgs": "--module-path \"c:/Program Files/Java/javafx-sdk-17.0.7/lib\" --add-modules javafx.controls,javafx.fxml",
+			"type": "java",
+			"name": "Launch Current File",
+			"request": "launch",
+			"mainClass": "${file}"
+		},
+		{
+			"vmArgs": "--module-path \"c:/Program Files/Java/javafx-sdk-17.0.7/lib\" --add-modules javafx.controls,javafx.fxml",
+			"type": "java",
+			"name": "Launch App",
+			"request": "launch",
+			"mainClass": "App"
+		}
+	]
+}
